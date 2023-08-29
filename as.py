@@ -45,8 +45,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
-fbks=('[FBAN/FB4A;FBAV/16.0.0.20.15;FBBV/4061184;FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FB_FW/2;FBCR/MY CELCOM;FBPN/com.facebook.katana;FBDV/Lenovo A850+;FBSV/4.2.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]')
-
+fbks=('[FBAN/FB4A;FBAV/242.0.0.43.119;FBBV/176515222;FBDM/{density=2.625,width=1080,height=2042};FBLC/en_US;FBRV/177156964;FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G973U;FBSV/9;FBOP/1;FBCA/arm64-v8a:;')
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
 andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
@@ -68,7 +67,7 @@ ua = []
 
 del ua
 """
-Mozilla/5.0 (iPad; CPU OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad8,12;FBMD/iPad;FBSN/iOS;FBSV/14.0.1;FBSS/2;FBID/tablet;FBLC/en_US;FBOP/5]
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 [FBAN/FBIOS;FBAV/170.0.0.60.91;FBBV/105964764;FBDV/iPhone10,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/106631002]
 """
 
 ua=[]
