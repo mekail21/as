@@ -45,7 +45,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
-fbks=('[FBAN/FB4A;FBAV/387.0.0.22.98;FBBV/33802808;FBDM/{density=2.5,width=720,height=1440};FBLC/en_PK;FBCR/Salaam Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T531;FBSV/8.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]')
+fbks=('[FBAN/FB4A;FBAV/519.0.0.92.494;FBBV/3280947;FBDM/{density=2.1,width=981,height=1727};FBLC/en_GB;FBRV/355027670;FBCR/Bangalink;FBMF/Redmi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M1901F7T;FBSV/5;FBCA/arm64-v8a:null;] [FBAN/FB4A;FBAV/126.0.0.95.693;FBBV/2504712;FBDM/{density=2.9,width=948,height=2334};FBLC/en_GB;FBRV/126994068;FBCR/null;FBMF/Lenovo;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/K6;FBSV/10;FBCA/armeabi-v7a:armeabi;]')
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
 andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
