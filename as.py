@@ -45,7 +45,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
-fbks=('[FBAN/FB4A;FBAV/242.0.0.43.119;FBBV/176515222;FBDM/{density=2.625,width=1080,height=2042};FBLC/en_US;FBRV/177156964;FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G973U;FBSV/9;FBOP/1;FBCA/arm64-v8a:;')
+fbks=('[FBAN/FB4A;FBAV/387.0.0.22.98;FBBV/33802808;FBDM/{density=2.5,width=720,height=1440};FBLC/en_PK;FBCR/Salaam Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T531;FBSV/8.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]')
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
 andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
