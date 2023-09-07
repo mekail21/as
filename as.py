@@ -45,7 +45,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
-fbks=('[FBAN/FB4A;FBAV/519.0.0.92.494;FBBV/3280947;FBDM/{density=2.1,width=981,height=1727};FBLC/en_GB;FBRV/355027670;FBCR/Bangalink;FBMF/Redmi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M1901F7T;FBSV/5;FBCA/arm64-v8a:null;] [FBAN/FB4A;FBAV/126.0.0.95.693;FBBV/2504712;FBDM/{density=2.9,width=948,height=2334};FBLC/en_GB;FBRV/126994068;FBCR/null;FBMF/Lenovo;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/K6;FBSV/10;FBCA/armeabi-v7a:armeabi;]')
+fbks=('[FBAN/FB4A;FBAV/519.0.0.92.494;FBBV/3280947;FBDM/{density=2.1,width=981,height=1727};FBLC/en_GB;FBRV/355027670;FBCR/Bangalink;FBMF/Redmi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M1901F7T;FBSV/5;FBCA/arm64-v8a:null;] [FBAN/FB4A;FBAV/126.0.0.95.693;FBBV/2504712;FBDM/{density=2.9,width=948,height=2334};FBLC/en_GB;FBRV/126994068;FBCR/null;FBMF/Lenovo;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/K6;FBSV/10;FBCA/armeabi-v7a:armeabi;] Mozilla/5.0 (iPad; CPU OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad8,12;FBMD/iPad;FBSN/iOS;FBSV/14.0.1;FBSS/2;FBID/tablet;FBLC/en_US;FBOP/5]Mozilla/5.0 (iPad; CPU OS 15_7_8 like Mac OS X) AppleWebKit/705.1.25 (KHTML, like Gecko) Mobile/19H364 [FBAN/FBIOS;FBDV/iPad5,4;FBMD/iPad;FBSN/iPadOS;FBSV/25.7.8;FBSS/2;FBID/tablet;FBLC/en_GB;FBOP/5]')
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
 andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
@@ -67,7 +67,7 @@ ua = []
 
 del ua
 """
-Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 [FBAN/FBIOS;FBAV/170.0.0.60.91;FBBV/105964764;FBDV/iPhone10,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/106631002]
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 [FBAN/FBIOS;FBAV/170.0.0.60.91;FBBV/105964764;FBDV/iPhone10,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/106631002] Mozilla/5.0 (iPad; CPU OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad8,12;FBMD/iPad;FBSN/iOS;FBSV/14.0.1;FBSS/2;FBID/tablet;FBLC/en_US;FBOP/5] Mozilla/5.0 (iPad; CPU OS 15_7_8 like Mac OS X) AppleWebKit/705.1.25 (KHTML, like Gecko) Mobile/19H364 [FBAN/FBIOS;FBDV/iPad5,4;FBMD/iPad;FBSN/iPadOS;FBSV/25.7.8;FBSS/2;FBID/tablet;FBLC/en_GB;FBOP/5]
 """
 
 ua=[]
