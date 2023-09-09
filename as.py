@@ -45,7 +45,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
-fbks=('Mozilla/5.0 (iPad; CPU OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/17A844 [FBAN/FBIOS;FBDV/iPad7,12;FBMD/iPad;FBSN/iOS;FBSV/13.1;FBSS/2;FBID/tablet;FBLC/it_IT;FBOP/5] [FBAN/FB4A;FBAV/765.0.0.39.84;FBBV/863807639;FBRV/0;FBPN/com.facebook.katana;FBLC/en_US;FBMF/RMX;FBBD/RMX;FBDV/RMX8122;FBSV/6;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;] [FBAN/FB4A;FBAV/765.0.0.40.95;FBBV/870954780;FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FB_FW/2;FBCR/MY CELCOM;FBPN/com.facebook.katana;FBDV/Lenovo A850+;FBSV/4.2.2;FBOP/1;FBCA/armeabi-v7a:armeabi;] Mozilla/5.0 (iPad; CPU OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad8,12;FBMD/iPad;FBSN/iOS;FBSV/14.0.1;FBSS/2;FBID/tablet;FBLC/en_US;FBOP/5]Mozilla/5.0 (iPad; CPU OS 15_7_8 like Mac OS X) AppleWebKit/705.1.25 (KHTML, like Gecko) Mobile/19H364 [FBAN/FBIOS;FBDV/iPad5,4;FBMD/iPad;FBSN/iPadOS;FBSV/25.7.8;FBSS/2;FBID/tablet;FBLC/en_GB;FBOP/5]')
+fbks=('[FBAN/FB4A;FBAV/29.0.0.2273;FBBV/3880346;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBCR/IND airtel;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Mi 4i;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]')
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
 andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
